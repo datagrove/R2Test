@@ -7,5 +7,7 @@ export default defineConfig({
   integrations: [
     tailwind(),
     react(),
-  ]
+  ],
+  base: '/testDGMain',
+  outDir: './testDGMain',
 });

@@ -5,13 +5,13 @@ import Card from '../common/Card.astro';
 <div class="px-4 md:px-16 md:my-16">
     <div class="flex flex-col md:flex-row md:flex-wrap">
         <Card
-            href="/pawpaw"
+            href=`${import.meta.env.BASE_URL}pawpaw`
             title="Home of Pawpaw"
             body="Homeschool compliance made easy"
         />
 
         <Card
-            href="/about"
+            href=`${import.meta.env.BASE_URL}about`
             title="Datagrove"
             body="Building software that does good"
         />
