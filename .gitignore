@@ -1,6 +1,7 @@
 # build output
 dist/
 testDGMain/
+test_dg_main/
 
 # generated types
 .astro/

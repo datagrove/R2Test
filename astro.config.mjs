@@ -8,6 +8,6 @@ export default defineConfig({
     tailwind(),
     react(),
   ],
-  base: '/testDGMain',
-  outDir: './testDGMain',
+  base: './test_dg_main',
+  outDir: './test_dg_main',
 });

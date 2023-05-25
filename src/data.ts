@@ -2,24 +2,24 @@ export const headerData = {
     links: [
         {
             text: "Home",
-            href: `${import.meta.env.BASE_URL}`
+            href: './'
         },
         {
             text: "About Us",
-            href: `${import.meta.env.BASE_URL}about`
+            href: './about'
         },
         {
             text: "Solutions",
             links: [
                 {
                     text: "Homeschool",
-                    href: `${import.meta.env.BASE_URL}pawpaw`
+                    href: './pawpaw'
                 },
             ],
         },
         {
             text: "Contact",
-            href: `${import.meta.env.BASE_URL}contact`
+            href: './contact'
         },
     ]
 }
