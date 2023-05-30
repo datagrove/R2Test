@@ -9,5 +9,4 @@ export default defineConfig({
     react(),
   ],
   base: '/test_dg_main',
-  outDir: './test_dg_main',
 });
